@@ -1,0 +1,12 @@
+# Keep this file ASCII-only: pip reads it with the console codepage on Windows.
+#
+# No local vector DB on purpose: complaints are queried live from the PLM
+# database (a few hundred rows, full-text LIKE scan ~12ms), so results are
+# always current.
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+anthropic
+python-dotenv
+pyodbc

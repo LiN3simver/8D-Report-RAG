@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+# internal SQL query files are not published
+sql/*.sql
